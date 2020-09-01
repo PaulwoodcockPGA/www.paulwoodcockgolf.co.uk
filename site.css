@@ -20,9 +20,6 @@ header {
 	width: 100%;
 	border-bottom: 1px solid #d5d5d5;
 	background: white;
-	position: fixed;
-	top: 0;
-	left: 0;
 }
 
 header img {
@@ -58,6 +55,10 @@ nav ul#social {
 	float: right;
 }
 
+nav ul#social li {
+	margin: 0 5px 0 0;
+}
+
 nav ul#social li:first-child img {
 	padding-top: 8px;
 	width: 30px;
@@ -74,15 +75,19 @@ nav ul#social li:last-child img {
 
 .section {
 	width: 100%;
-	padding: 220px 200px 50px;
+	padding: 100px 200px;
 	background: #EEE;
-	line-height: 1.6em;
+	line-height: 1.4em;
 	text-align: center;
 }
 
-.section h3 {
-	margin-bottom: 15px;
+.section h2 {
+	margin-bottom: 30px;
 	font-size: 26px;
+}
+
+.section p {
+	margin-bottom: 15px;
 }
 
 .section.green {
@@ -101,6 +106,7 @@ nav ul#social li:last-child img {
 
 iframe {
 	width: 100%;
+	margin-top: 20px;
 }
 
 footer {
