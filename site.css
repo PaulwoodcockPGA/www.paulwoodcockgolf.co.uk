@@ -11,25 +11,28 @@ html {
 
 body {
 	width: 100%;
+	color: #141510;
+	font-family: Sans-Serif;
 }
 
 header {
-	padding: 40px;
+	padding: 20px;
 	width: 100%;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #d5d5d5;
 	background: white;
 	position: fixed;
 	top: 0;
 	left: 0;
 }
 
-header h1 {
-	margin-bottom: 20px;
+header img {
+	max-width: 300px;
 }
 
-header ul {
-	height: 20px;
+nav {
+	float: right;
 }
+
 
 header ul li {
 	float: left;
@@ -37,29 +40,74 @@ header ul li {
 	margin: 0 15px 0 0;
 }
 
-header ul li:first-child img {
+nav #nav a, nav #nav a:visited  {
+	color: #141510;
+	text-decoration: none;
+}
+
+nav #nav a:hover {
+	text-decoration: underline;
+}
+
+nav ul#nav {
+	margin-top: 45px;
+	height: 30px;
+}
+
+nav ul#social {
+	float: right;
+}
+
+nav ul#social li:first-child img {
 	padding-top: 8px;
 	width: 30px;
 }
 
-header ul li:nth-child(2) img {
+nav ul#social li:nth-child(2) img {
 	width: 45px;
 }
 
-header ul li:last-child img {
+nav ul#social li:last-child img {
 	padding-top: 10px;
 	width: 35px;
 }
 
-header ul#social {
-	margin-top: -50px;
-	float: right;
-}
-
 .section {
 	width: 100%;
-	height: 800px;
-	background: cyan;
-	margin: 0 0 20px 0;
-	padding-top: 160px;
+	padding: 220px 200px 50px;
+	background: #EEE;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+.section h3 {
+	margin-bottom: 15px;
+	font-size: 26px;
+}
+
+.section.green {
+	background: #c0dd68;
+}
+
+.section .left {
+	width: 50%;
+}
+
+.section .right {
+	float: right;
+	width: 50%;
+	display: block;
+}
+
+iframe {
+	width: 100%;
+}
+
+footer {
+	background: #141510;
+	color: #FFF;
+	padding: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
 }
