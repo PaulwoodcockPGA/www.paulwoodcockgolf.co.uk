@@ -102,26 +102,27 @@ hr {
 
 #social li {
 	float: left;
-	margin: 0 10px;
+	margin: 0 15px;
 }
 
 #social li:first-child img {
-	padding-top: 10px;
-	width: 45px;
+	width: 55px;
 }
 
 #social li:nth-child(2) img {
-	width: 65px;
+	padding-top: 4px;
+	width: 50px;
 }
 
 #social li:last-child img {
-	padding-top: 15px;
-	width: 55px;
+	padding-top: 7px;
+	width: 60px;
 }
 
 iframe {
 	width: 100%;
 	margin-top: 20px;
+	border: 1px solid #CCC;
 }
 
 footer {
