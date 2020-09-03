@@ -32,7 +32,7 @@ header {
 
 header img {
 	max-width: 300px;
-	margin: 20px auto;
+	margin: 0 auto 30px;
 	display: block;
 }
 
@@ -43,6 +43,7 @@ nav {
 
 nav a, nav a:visited  {
 	margin-right: 10px;
+	font-weight: bold;
 }
 
 hr {
@@ -63,6 +64,10 @@ hr {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+#about img {
+	margin-top: 20px;
 }
 
 .section h2 {
