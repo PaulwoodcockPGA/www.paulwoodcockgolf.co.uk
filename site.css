@@ -15,75 +15,54 @@ body {
 	font-family: Sans-Serif;
 }
 
+a, a:visited {
+	text-decoration: none;
+	color: #141510;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 header {
 	padding: 20px;
 	width: 100%;
-	border-bottom: 1px solid #D5D5D5;
 	background: white;
 }
 
 header img {
 	max-width: 300px;
+	margin: 20px auto;
+	display: block;
 }
 
 nav {
-	float: right;
+	margin: 0 auto;
+	text-align: center;
 }
 
-
-header ul li {
-	float: left;
-	list-style: none;
-	margin: 0 15px 0 0;
+nav a, nav a:visited  {
+	margin-right: 10px;
 }
 
-nav #nav a, nav #nav a:visited  {
-	color: #141510;
-	text-decoration: none;
-}
-
-nav #nav a:hover {
-	text-decoration: underline;
-}
-
-nav ul#nav {
-	margin-top: 45px;
-	height: 30px;
-}
-
-nav ul#social {
-	float: right;
-}
-
-nav ul#social li {
-	margin: 0 5px 0 0;
-}
-
-nav ul#social li:first-child img {
-	padding-top: 8px;
-	width: 30px;
-}
-
-nav ul#social li:nth-child(2) img {
-	width: 45px;
-}
-
-nav ul#social li:last-child img {
-	padding-top: 10px;
-	width: 35px;
+hr {
+	background: #EEE;
+	width: 100px;
+	height: 3px;
+	margin: 50px auto 0;
 }
 
 .section {
 	width: 100%;
-	padding: 100px 200px;
-	background: #EEE;
+	padding: 50px;
 	line-height: 1.4em;
 	text-align: center;
 }
 
 .inner {
 	width: 100%;
-	max-width: 2000px;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .section h2 {
@@ -95,8 +74,8 @@ nav ul#social li:last-child img {
 	margin-bottom: 15px;
 }
 
-.section.green {
-	background: #c0dd68;
+.section.grey {
+	background: #EEE;
 }
 
 .section .left {
@@ -106,7 +85,33 @@ nav ul#social li:last-child img {
 .section .right {
 	float: right;
 	width: 50%;
-	display: block;
+	padding-left: 25px;
+}
+
+#social ul {
+	margin: 0 auto;
+	display: inline-block;
+	list-style: none;
+	min-height: 65px;
+}
+
+#social li {
+	float: left;
+	margin: 0 10px;
+}
+
+#social li:first-child img {
+	padding-top: 10px;
+	width: 45px;
+}
+
+#social li:nth-child(2) img {
+	width: 65px;
+}
+
+#social li:last-child img {
+	padding-top: 15px;
+	width: 55px;
 }
 
 iframe {
@@ -136,10 +141,6 @@ footer p.nav a, footer p.nav a:visited {
 	margin-right: 10px;
 }
 
-footer a:hover {
-	text-decoration: underline;
-}
-
 footer a, footer  a:visited {
 	color: #D5D5D5;
 	text-decoration: none;
@@ -153,7 +154,7 @@ footer p {
 
 footer p.copy {
 	padding-top: 15px;
-	font-size: 13px;
+	font-size: 11px;
 }
 
 footer img {
