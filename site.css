@@ -18,7 +18,7 @@ body {
 header {
 	padding: 20px;
 	width: 100%;
-	border-bottom: 1px solid #d5d5d5;
+	border-bottom: 1px solid #D5D5D5;
 	background: white;
 }
 
@@ -81,6 +81,11 @@ nav ul#social li:last-child img {
 	text-align: center;
 }
 
+.inner {
+	width: 100%;
+	max-width: 2000px;
+}
+
 .section h2 {
 	margin-bottom: 30px;
 	font-size: 26px;
@@ -111,9 +116,47 @@ iframe {
 
 footer {
 	background: #141510;
-	color: #FFF;
-	padding: 30px;
-	text-align: center;
-	font-weight: bold;
+	color: #D5D5D5;
+	padding: 50px;
 	font-size: 12px;
+}
+
+footer .inner {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 850px;
+	text-align: center;
+}
+
+footer p.nav a, footer p.nav a:visited {
+	color: #D5D5D5;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 10px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer a, footer  a:visited {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+footer p {
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+footer p.copy {
+	padding-top: 15px;
+	font-size: 13px;
+}
+
+footer img {
+	width: 250px;
+	margin: 25px 0;
 }
