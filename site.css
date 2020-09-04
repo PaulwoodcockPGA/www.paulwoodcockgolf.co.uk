@@ -26,7 +26,7 @@ a:hover {
 }
 
 header {
-	padding: 40px 20px 20px;
+	padding: 60px 20px 20px;
 	width: 100%;
 	text-align: center;
 }
@@ -42,16 +42,29 @@ header .contact {
 
 header .contact img {
 	width: 20px;
-	float: left;
 	margin-right: 10px;
 }
 
-header .contact .inner div:first-child {
+header .contact .inner div {
 	float: left;
+	width: 33.33%;
 }
 
-header .contact .inner div:last-child {
-	float: right;
+header .contact .inner div.tel {
+	text-align: left;
+}
+
+header .contact .inner div.book {
+	margin: 0;
+}
+
+header .contact .inner div.email {
+	text-align: right;
+}
+
+header .contact .inner div a {
+	position: relative;
+	top: -5px;
 }
 
 header img.logo {
@@ -158,6 +171,16 @@ iframe {
 	border: 1px solid #CCC;
 }
 
+#bookings {
+	padding: 50px 0;
+}
+
+#bookings iframe {
+	border: none;
+	min-height: 900px;
+	width: 100%;
+}
+
 footer {
 	background: #141510;
 	color: #D5D5D5;
@@ -220,12 +243,25 @@ footer img {
 		float: none;
 	}
 
-	header .contact .inner div:first-child, header .contact .inner div:last-child {
+	header .contact .inner div {
 		float: none;
+		width: 100%;
+	}
+
+	header .contact .inner div.tel, header .contact .inner div.email {
+		text-align: center;
+	}
+
+	header .contact .inner div.book {
+		margin: 10px 0;
 	}
 
 	hr {
 		margin: 20px auto 0;
+	}
+
+	#bookings {
+		padding: 20px 0;
 	}
 
 	.section {
