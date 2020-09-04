@@ -139,17 +139,17 @@ hr {
 }
 
 #social li:first-child img {
-	width: 55px;
+	width: 50px;
 }
 
 #social li:nth-child(2) img {
 	padding-top: 4px;
-	width: 50px;
+	width: 45px;
 }
 
 #social li:last-child img {
 	padding-top: 7px;
-	width: 60px;
+	width: 55px;
 }
 
 iframe {
@@ -203,7 +203,16 @@ footer img {
 
 @media screen and (max-width: 500px) {
 	header {
-		padding: 80px 20px 0;
+		padding: 20px;
+	}
+
+	header img.logo {
+		margin: 20px auto;
+	}
+
+	header .contact {
+		position: relative;
+		padding: 0;
 	}
 
 	header .contact img {
