@@ -95,6 +95,7 @@ hr {
 	padding: 50px;
 	line-height: 1.4em;
 	text-align: center;
+	display: flex;
 }
 
 .inner {
@@ -130,6 +131,7 @@ hr {
 }
 
 .section .left {
+	float: left;
 	width: 50%;
 }
 
@@ -137,6 +139,15 @@ hr {
 	float: right;
 	width: 50%;
 	padding-left: 25px;
+	margin-top: 0;
+}
+
+.section ul {
+	margin-bottom: 10px;
+}
+
+.section li {
+	margin-left: 20px;
 }
 
 #lessons h3 {
@@ -295,7 +306,7 @@ footer img {
 	}
 
 	.section {
-		padding: 20px;
+		padding: 40px 20px;
 	}
 
 	.section .left {
@@ -307,6 +318,7 @@ footer img {
 		float: none;
 		width: 100%;
 		padding-left: 0;
+		margin-top: 15px;
 	}
 
 	#facility table {
