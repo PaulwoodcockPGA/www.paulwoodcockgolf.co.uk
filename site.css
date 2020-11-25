@@ -225,6 +225,11 @@ nav a, nav a:visited  {
 	width: 50%;
 }
 
+#fitting img {
+	width: 33%;
+	max-height: 255px;
+}
+
 iframe {
 	width: 100%;
 	margin-top: 20px;
@@ -347,6 +352,11 @@ footer img {
 
 	#facility table {
 		width: 100%;
+	}
+
+	#fitting img {
+		width: 100%;
+		max-height: auto;
 	}
 
 	footer img {
