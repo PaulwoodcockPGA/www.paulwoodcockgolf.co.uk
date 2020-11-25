@@ -145,11 +145,16 @@ nav a, nav a:visited  {
 }
 
 #about {
-	min-height: 400px;
-	background: #FFF url('https://images.unsplash.com/photo-1564607890610-2172bf275043') no-repeat center;
+	min-height: 800px;
+	max-width: 2000px;
+	background: #FFF url('images/studio.jpg') no-repeat center;
 	background-size: cover;
 	color: #FFF;
-	margin-top: 20px;
+	margin: 20px auto 0;
+}
+
+#about .inner {
+	margin: auto;
 }
 
 #lessons h3 {
@@ -179,6 +184,10 @@ nav a, nav a:visited  {
 	height: 100px;
 	background: #828282;
 	margin: 0 auto;
+}
+
+.profile img {
+	border-radius: 50%;
 }
 
 #facility p:last-child {
@@ -305,6 +314,10 @@ footer img {
 
 	header .contact .inner div.book {
 		margin: 10px 0;
+	}
+
+	#about {
+		min-height: 400px;
 	}
 
 	#bookings {
