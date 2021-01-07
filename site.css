@@ -156,7 +156,7 @@ nav a, nav a:visited  {
 #about .inner {
 	margin: auto;
 	padding: 30px;
-	width: 45%;
+	max-width: 45%;
 	background: rgba(69, 69, 69, 0.4);
 }
 
@@ -244,6 +244,12 @@ iframe {
 }
 
 #bookings iframe {
+	border: none;
+	min-height: 900px;
+	width: 100%;
+}
+
+#contact iframe {
 	border: none;
 	min-height: 900px;
 	width: 100%;
