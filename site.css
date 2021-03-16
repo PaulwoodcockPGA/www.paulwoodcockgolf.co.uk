@@ -160,6 +160,10 @@ nav a, nav a:visited  {
 	background: rgba(69, 69, 69, 0.4);
 }
 
+#academy .right img {
+	margin-top: 100px;
+}
+
 #lessons h3 {
 	margin: 20px 0;
 }
@@ -231,11 +235,6 @@ nav a, nav a:visited  {
 #fitting img {
 	max-width: 130px;
 	margin: 20px 20px 0;
-}
-
-#fitting img:last-child {
-	max-width: 155px;
-	margin: 40px 20px 0;
 }
 
 iframe {
@@ -343,6 +342,10 @@ footer img {
 		max-width: 100%
 	}
 
+	#academy .right img {
+		margin-top: 0;
+	}
+
 	#bookings {
 		padding: 20px 0;
 	}
@@ -373,11 +376,7 @@ footer img {
 	}
 
 	#fitting img {
-		max-width: 50%;
-	}
-
-	#fitting img:last-child {
-		margin: 20px 20px 0;
+		max-width: 40%;
 	}
 
 	footer img {
