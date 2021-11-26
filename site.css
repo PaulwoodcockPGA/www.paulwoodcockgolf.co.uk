@@ -198,8 +198,9 @@ nav a, nav a:visited  {
 	border-radius: 50%;
 }
 
-#facility p:last-child {
-	font-style: italic;
+#facility p.small {
+	font-size: 0.8rem;
+	margin-bottom: 0;
 }
 
 #social ul {
