@@ -212,6 +212,10 @@ nav a, nav a:visited  {
 	margin-bottom: 0;
 }
 
+#facility p:last-of-type {
+	margin-top: 10px;
+}
+
 #social ul {
 	margin: 0 auto;
 	display: inline-block;
