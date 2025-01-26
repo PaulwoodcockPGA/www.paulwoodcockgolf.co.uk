@@ -165,6 +165,33 @@ nav a, nav a:visited  {
 	margin-top: 100px;
 }
 
+#bookings .inner {
+	max-width: 800px;
+}
+
+#bookings iframe {
+	border: none;
+	min-height: 750px;
+	width: 100%;
+}
+
+#bookings .left, #bookings .right {
+	width: 50%;
+}
+
+#bookings img {
+	height: 150px;
+	width: auto;
+}
+
+#bookings h3 {
+	margin: 10px 0;
+}
+
+#bookings p {
+	margin-bottom: 0;
+}
+
 #lessons h3 {
 	margin: 20px 0;
 }
@@ -257,16 +284,6 @@ iframe {
 	width: 100%;
 	margin-top: 20px;
 	border: 1px solid #CCC;
-}
-
-#bookings {
-	padding: 60px 0;
-}
-
-#bookings iframe {
-	border: none;
-	min-height: 600px;
-	width: 100%;
 }
 
 footer {
