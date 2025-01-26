@@ -377,10 +377,6 @@ footer img {
 		margin-top: 0;
 	}
 
-	#bookings {
-		padding: 20px 0;
-	}
-
 	.section {
 		padding: 40px 20px;
 	}
@@ -395,6 +391,15 @@ footer img {
 		width: 100%;
 		padding-left: 0;
 		margin-top: 15px;
+	}
+
+	#bookings .left, #bookings .right {
+		margin: 0;
+		float: left;
+	}
+
+	#bookings img {
+		height: 100px;
 	}
 
 	#lessons .left, #lessons .right {
